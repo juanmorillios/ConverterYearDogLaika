@@ -21,6 +21,7 @@
 		B989288118D3734F000F2065 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B989286318D3734F000F2065 /* UIKit.framework */; };
 		B989288918D3734F000F2065 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B989288718D3734F000F2065 /* InfoPlist.strings */; };
 		B989288B18D3734F000F2065 /* LaikaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B989288A18D3734F000F2065 /* LaikaTests.m */; };
+		B9B21DF618D61E280053CE43 /* laika.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9B21DF518D61E280053CE43 /* laika.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B989288618D3734F000F2065 /* LaikaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LaikaTests-Info.plist"; sourceTree = "<group>"; };
 		B989288818D3734F000F2065 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B989288A18D3734F000F2065 /* LaikaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaikaTests.m; sourceTree = "<group>"; };
+		B9B21DF518D61E280053CE43 /* laika.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = laika.jpg; path = ../laika.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				B989287418D3734F000F2065 /* JMMViewController.h */,
 				B989287518D3734F000F2065 /* JMMViewController.m */,
 				B989287718D3734F000F2065 /* Images.xcassets */,
+				B9B21DF518D61E280053CE43 /* laika.jpg */,
 				B989286618D3734F000F2065 /* Supporting Files */,
 			);
 			path = Laika;
@@ -231,6 +234,7 @@
 			files = (
 				B989287818D3734F000F2065 /* Images.xcassets in Resources */,
 				B989286A18D3734F000F2065 /* InfoPlist.strings in Resources */,
+				B9B21DF618D61E280053CE43 /* laika.jpg in Resources */,
 				B989287318D3734F000F2065 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +465,7 @@
 				B989289018D3734F000F2065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B989289118D3734F000F2065 /* Build configuration list for PBXNativeTarget "LaikaTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +474,7 @@
 				B989289318D3734F000F2065 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
