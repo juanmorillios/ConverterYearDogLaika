@@ -33,7 +33,7 @@
                                 <rect key="frame" x="20" y="85" width="84" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Chf-UI-lQn">
@@ -71,7 +71,7 @@
                                 <rect key="frame" x="20" y="131" width="120" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.80000001192092896" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tO7-mC-Y7O">
@@ -99,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="596" y="33"/>
+            <point key="canvasLocation" x="1782" y="593"/>
         </scene>
         <!--View Controller - HISTORY OF DOG LAIKA-->
         <scene sceneID="4rz-An-PNN">
@@ -136,12 +136,13 @@ Peso: 6 kg</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WuK-MT-sVj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="963" y="30"/>
+            <point key="canvasLocation" x="1367" y="91"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Navigation Controller - Item-->
         <scene sceneID="ps7-qn-oZY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xVB-jB-H0b" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="jBy-9F-KoB"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="f1j-AY-MtA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -154,7 +155,7 @@ Peso: 6 kg</string>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JqG-FF-ACy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="198" y="698"/>
+            <point key="canvasLocation" x="902" y="340"/>
         </scene>
     </scenes>
     <resources>
