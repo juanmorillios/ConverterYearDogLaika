@@ -69,7 +69,7 @@
         dogYears = 10.5 * humanYears;
     }
     
-    self.realYearsLabel.text = [NSString stringWithFormat:@"%i", dogYears];
+    self.realYearsLabel.text = [NSString stringWithFormat:@"%i years", dogYears];
     
     [self.yearsTextField resignFirstResponder];
     
