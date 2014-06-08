@@ -50,7 +50,7 @@
     
     int dogYears = humanYears * 7;
     
-    self.yearsLabel.text =  [ NSString stringWithFormat:@"%i years", dogYears];
+    self.yearsLabel.text =  [ NSString stringWithFormat:@"%i years old", dogYears];
     
     [self.yearsTextField resignFirstResponder];
 }
@@ -69,9 +69,36 @@
         dogYears = 10.5 * humanYears;
     }
     
-    self.realYearsLabel.text = [NSString stringWithFormat:@"%i years", dogYears];
+    self.realYearsLabel.text = [NSString stringWithFormat:@"%i years old", dogYears];
     
     [self.yearsTextField resignFirstResponder];
     
+    int counter;
+    
+    counter = 23;
+    
+    if ((counter = 10)) {
+        NSLog(@"Esto es un prueba con texto");
+    }
+    
+    
+    
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @end
